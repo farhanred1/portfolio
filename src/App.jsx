@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects"
-import Resume from "./pages/Contact"
+import Contact from "./pages/Contact"
 import {
 	BrowserRouter as Router,
 	Route,
@@ -15,11 +15,11 @@ function App() {
 
 		<Router>
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/contact" element={<Resume />} />
-				<Route path="*" element={<Navigate to="/" />} />
+				<Route path="/portfolio" element={<Home />} />
+				<Route path="/portfolio/projects" element={<Projects />} />
+				<Route path="/portfolio/about" element={<About />} />
+				<Route path="/portfolio/contact" element={<Contact />} />
+				<Route path="*" element={<Navigate to="/portfolio" />} />
 			</Routes>
 		</Router>
 

@@ -67,7 +67,7 @@ function Header() {
             <ul className="md:flex md:space-x-4">
               <li className="py-1 nav-item">
                 <a
-                  href="/"
+                  href="/portfolio/"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
@@ -78,7 +78,7 @@ function Header() {
               </li>
               <li className="py-1 nav-item">
                 <a
-                  href="/about"
+                  href="/portfolio/about"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
@@ -89,7 +89,7 @@ function Header() {
               </li>
               <li className="py-1 nav-item">
                 <a
-                  href="/projects"
+                  href="/portfolio/projects"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
@@ -100,7 +100,7 @@ function Header() {
               </li>
               <li className="py-1 nav-item">
                 <a
-                  href="/contact"
+                  href="/portfolio/contact"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"

@@ -32,7 +32,7 @@ function Home() {
                         <div className="md:flex grid gap-6">
 
                             <a
-                                href="/projects"
+                                href="/portfolio/projects"
                                 target=""
                                 className="px-8 py-2.5 bg-[#20B486] rounded-3xl font-bold justify-center items-center gap-2.5 inline-flex whitespace-nowrap"
                             >
