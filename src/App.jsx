@@ -29,11 +29,11 @@ function App() {
 		},
 		{
 			path: "*",
-			element: <Navigate to="/portfolio" />,
+			element: <Navigate to="/portfolio/" />,
 		},
 
 	]);
-	
+
 	return (
 		<RouterProvider router={router} />
 	)

@@ -78,7 +78,7 @@ function Header() {
               </li>
               <li className="py-1 nav-item">
                 <Link
-                  to="/portfolio/about"
+                  to="/portfolio/about/"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
