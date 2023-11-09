@@ -3,6 +3,8 @@ import Footer from "../components/Footer"
 import HeroImage from "../assets/Hero.png"
 import pdf from "../assets/farhanreduan_resume.pdf"
 import Typewriter from "typewriter-effect"
+import { Link } from "react-router-dom";
+
 import { HiOutlineDownload, HiOutlineExternalLink } from "react-icons/hi"
 function Home() {
     return (
@@ -31,14 +33,14 @@ function Home() {
                         <p className='py-2 text-lg text-stone-50 text-opacity-50'>Various versions have evloved over the years, sometimes by accident.</p>
                         <div className="md:flex grid gap-6">
 
-                            <a
-                                href="/portfolio/projects"
+                            <Link
+                                to="/portfolio/projects/"
                                 target=""
                                 className="px-8 py-2.5 bg-[#20B486] rounded-3xl font-bold justify-center items-center gap-2.5 inline-flex whitespace-nowrap"
                             >
                                 VIEW PROJECTS
                                 <HiOutlineExternalLink />
-                            </a>
+                            </Link>
 
                             <a
                                 href={pdf}

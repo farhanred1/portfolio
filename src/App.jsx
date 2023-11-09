@@ -3,26 +3,39 @@ import About from "./pages/About";
 import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import {
-	BrowserRouter as Router,
-	Route,
-	Routes,
-	Navigate
+	Navigate,
+	RouterProvider,
+	createBrowserRouter
 } from "react-router-dom";
 
 function App() {
+	const router = createBrowserRouter([
 
+		{
+			path: "/portfolio/",
+			element: <Home />,
+		},
+		{
+			path: "/portfolio/projects/",
+			element: <Projects />,
+		},
+		{
+			path: "/portfolio/about/",
+			element: <About />,
+		},
+		{
+			path: "/portfolio/contact/",
+			element: <Contact />,
+		},
+		{
+			path: "*",
+			element: <Navigate to="/portfolio" />,
+		},
+
+	]);
+	
 	return (
-
-		<Router>
-			<Routes>
-				<Route path="/portfolio" element={<Home />} />
-				<Route path="/portfolio/projects" element={<Projects />} />
-				<Route path="/portfolio/about" element={<About />} />
-				<Route path="/portfolio/contact" element={<Contact />} />
-				<Route path="*" element={<Navigate to="/portfolio" />} />
-			</Routes>
-		</Router>
-
+		<RouterProvider router={router} />
 	)
 }
 

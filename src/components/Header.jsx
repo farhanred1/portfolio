@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import {
   AiOutlineHome,
@@ -66,47 +66,47 @@ function Header() {
             <div className="text-emerald-500 text-2xl font-bold hidden md:block">FR</div>
             <ul className="md:flex md:space-x-4">
               <li className="py-1 nav-item">
-                <a
-                  href="/portfolio/"
+                <Link
+                  to="/portfolio/"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
                 >
                   <AiOutlineHome className="mr-1" /> Home
-                </a>
+                </Link>
 
               </li>
               <li className="py-1 nav-item">
-                <a
-                  href="/portfolio/about"
+                <Link
+                  to="/portfolio/about"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
                 >
                   <AiOutlineUser className="mr-1" /> About
-                </a>
+                </Link>
 
               </li>
               <li className="py-1 nav-item">
-                <a
-                  href="/portfolio/projects"
+                <Link
+                  to="/portfolio/projects/"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
                 >
                   <AiOutlineFundProjectionScreen className="mr-1" /> Projects
-                </a>
+                </Link>
 
               </li>
               <li className="py-1 nav-item">
-                <a
-                  href="/portfolio/contact"
+                <Link
+                  to="/portfolio/contact/"
                   style={{ color: "white" }}
                   className="flex items-center"
                   rel="noopener noreferrer"
                 >
                   <BsTelephone className="mr-1" /> Contact
-                </a>
+                </Link>
 
               </li>
             </ul>
