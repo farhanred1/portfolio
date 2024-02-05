@@ -3,16 +3,22 @@ import {
     SiPostman,
     SiSlack,
     SiVercel,
-    SiMacos,
+    SiWindows10,
     SiDocker,
 } from "react-icons/si";
+import {
+    FaLinux,
+} from "react-icons/fa";
 
 function AboutTools() {
     return (
         <div className="flex flex-wrap justify-center py-8">
 
             <div className="tech-icons">
-                <SiMacos />
+                <SiWindows10 />
+            </div>
+            <div className="tech-icons">
+                <FaLinux />
             </div>
             <div className="tech-icons transform origin-center hover:scale-110">
                 <SiVisualstudiocode />

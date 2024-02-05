@@ -17,20 +17,20 @@ function Home() {
                         <p className='py-2 text-2xl text-[#20B486] font-medium'>HI, I’M FARHAN</p>
                         <h1 className='md:leading-20 lg:text-6xl text-5xl font-semibold'>
                             I’M A <span className='md:leading-20 lg:text-5xl text-4xl text-[#20B486]'><Typewriter
-                            options={{
-                                strings: [
-                                    "Software Engineer",
-                                    "Full Stack Developer",
-                                    "Freelancer",
-                                ],
-                                autoStart: true,
-                                loop: true,
-                                deleteSpeed: 50,
-                            }}
-                        /></span>
+                                options={{
+                                    strings: [
+                                        "Software Engineer",
+                                        "Full Stack Developer",
+                                        "Freelancer",
+                                    ],
+                                    autoStart: true,
+                                    loop: true,
+                                    deleteSpeed: 50,
+                                }}
+                            /></span>
                         </h1>
-                        
-                        <p className='py-2 text-lg text-stone-50 text-opacity-50'>Various versions have evloved over the years, sometimes by accident.</p>
+
+                        <p className='py-2 text-lg text-stone-50 text-opacity-50'>Exploring the Intersection of Code and Creativity</p>
                         <div className="md:flex grid gap-6">
 
                             <Link

@@ -4,7 +4,7 @@ import ContactImg from "../assets/Contact.png"
 import { TbSend } from "react-icons/tb"
 
 function Contact() {
-  
+
   return (
 
     <div className="min-h-screen flex flex-col text-stone-50 bg-[#222831]">
@@ -84,11 +84,11 @@ function Contact() {
                   </div>
 
                 </div>
-                
+
                 <div className="flex">
-                  <button 
-                  className="px-8 py-2.5 bg-[#20B486] rounded-3xl font-bold justify-center items-center gap-2.5 inline-flex whitespace-nowrap"
-                  type="submit"
+                  <button
+                    className="px-8 py-2.5 bg-[#20B486] rounded-3xl font-bold justify-center items-center gap-2.5 inline-flex whitespace-nowrap"
+                    type="submit"
                   >
                     Send Message
                     <TbSend />

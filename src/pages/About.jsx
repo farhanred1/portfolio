@@ -8,7 +8,7 @@ function About() {
     return (
         <div className="min-h-screen flex flex-col text-stone-50 bg-[#222831]">
             <Header />
-            
+
             <main className="container mx-auto p-7 pt-20 flex-1 text-center flex flex-col justify-center items-center">
                 <div className="md:max-w-6xl max-w-[600px]">
 
@@ -20,9 +20,11 @@ function About() {
                                 About <span className="text-[#20B486] font-bold">me</span>
                             </h1>
 
-                            <p className="text-zinc-100 text-opacity-75 text-lg font-normal">My name is Farhan Reduan Ahammed. I am a diploma graduate from Singapore 
-                            Polytechnic in Computer Engineering. I have experience in developing web applications, mobile apps, and desktop software using various technologies and languages. 
-                            I enjoy solving complex problems, learning new skills, and collaborating with other developers.</p>
+                            <p className="text-zinc-100 text-opacity-75 text-lg font-normal">My name is <span className="text-[#20B486] font-bold">Farhan Reduan Ahammed</span>. I am a diploma graduate from Singapore
+                                Polytechnic in Computer Engineering.</p>
+
+                            <p className="text-zinc-100 text-opacity-75 text-lg font-normal">I am experienced in developing <span className="text-[#20B486] font-bold">web applications</span>, <span className="text-[#20B486] font-bold">mobile apps</span>, and <span className="text-[#20B486] font-bold">desktop software</span> using various technologies and languages.
+                                I enjoy solving complex problems, learning new skills, and collaborating with other developers.</p>
 
                         </div>
                         <div className="flex items-center justify-end">
